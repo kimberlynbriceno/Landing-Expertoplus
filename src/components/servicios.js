@@ -9,7 +9,7 @@ import Wsslogo from '../img/wsslogo.svg'
 export default function servicios() {
   return (
     <>
-    <section className='w-full h-screen'>
+    <section className='w-full h-screen '>
 
         <div>
         <div className='w-full h-3/4'>
@@ -32,11 +32,11 @@ export default function servicios() {
         </div>
 
     </section>
-    <main className='flex flex-col items-center bg-gradient-to-r from-blue'>
+    <main className='flex flex-col items-center bg-gradient-to-b from-blue mt-10'>
    {/* <div className='bg-white'> */}
-     <section className="text-gray-600 body-font">
+     <section className="text-gray-600 body-font-abc">
   <div className="container px-5 py-24 mx-auto">
-    <div className="flex flex-wrap -m-4">
+    <div className="flex flex-wrap m-4">
       <div className="p-4 md:w-1/3">
         <div className="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
           <img className="object-cover object-center w-full lg:h-48 md:h-36" src="https://dummyimage.com/720x400" alt="blog"/>
