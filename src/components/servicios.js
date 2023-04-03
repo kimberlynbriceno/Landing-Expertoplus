@@ -15,11 +15,11 @@ export default function servicios() {
         <div className='w-full h-3/4'>
 
         <div className='absolute flex flex-col items-start w-full h-full py-4 text-4xl space-y-7'> 
-                <p className='ml-8 text-white lg:text-8xl font-abc'>Transformas tus <br/> Proyectos en realidad <br/> con Expertoplus </p>
+                <p className='ml-8 mt-32 text-white lg:text-8xl font-abc'>Transformas tus <br/> Proyectos en realidad <br/> con Expertoplus </p>
                  <button className='p-3 ml-40 text-xl text-white bg-blue rounded-3xl font-abc'>Informacion</button>
         
             </div>
-            <div className='absolute flex flex-col items-end w-full h-full px-12 pt-72 md:pt-96 '><Link  href="https://web.whatsapp.com/"><Image  src={Wsslogo.src}
+            <div className='absolute flex flex-col items-end w-full h-full px-6 md:pt-80 pt-96  '><Link  href="https://web.whatsapp.com/"><Image  src={Wsslogo.src}
                      width={80} height={80}/></Link></div>
 
             <div className='w-full h-full bg-black '>

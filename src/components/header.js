@@ -13,8 +13,8 @@ export default function header() {
   };
 
   return (
-
-    <header className="flex flex-wrap items-center justify-between p-6 bg-header">
+    <div className='fixed z-10 w-full'>
+    <header className="flex flex-wrap items-center justify-between p-6 mt-6 mx-6 bg-header">
       <div className="flex items-center flex-shrink-0 mr-6 lg:h-auto">
             <Image className="inline-block w-12 mt-0 h-22 md:ml-4"
              src={Logo.src} width={300} height={120} />
@@ -53,6 +53,6 @@ export default function header() {
        </div>
 
     </header>
-
+    </div>
   )
 }
