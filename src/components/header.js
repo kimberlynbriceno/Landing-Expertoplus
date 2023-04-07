@@ -1,4 +1,4 @@
-import Logo from '../img/logo2.png'
+import Logo from '../img/logo.svg'
 import MenuBurguer from '../img/menuHamburguesas.svg'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -13,10 +13,9 @@ export default function header() {
   };
 
   return (
-    <div className='fixed z-10 w-full'>
-    <header className="flex flex-wrap items-center justify-between p-6 mt-6 mx-6 bg-header">
-      <div className="flex items-center flex-shrink-0 mr-6 lg:h-auto">
-            <Image className="inline-block w-12 mt-0 h-22 md:ml-4"
+    <header className="flex flex-wrap items-center justify-between p-6 bg-header">
+      <div className="flex items-center flex-shrink-0 ml-24 mr-6 lg:h-auto">
+            <Image className="inline-block w-48 mt-0 h-22 md:ml-4"
              src={Logo.src} width={300} height={120} />
 
       </div>
@@ -25,7 +24,7 @@ export default function header() {
           {" "}
           <button
             onClick={handleMenu}
-            className="flex items-center px-2 py-2 border rounded-2xl bg-blue "
+            className="flex items-center px-2 py-2 border bg-blue "
           >
             <img
               className="items-center block w-5 h-5 lg:inline-block lg:mt-0"
@@ -47,12 +46,11 @@ export default function header() {
             <Link className="block pr-5 mt-4 md:ml-4 hover:text-slate-100 lg:inline-block lg:mt-0 font-dfg" href="/"> Inicio</Link>
             <Link className="block pr-5 mt-4 md:ml-4 hover:text-slate-100 lg:inline-block lg:mt-0 font-dfg" href="/Nosotros">Nosotros</Link>
             <Link className="block pr-5 mt-4 md:ml-4 hover:text-slate-100 lg:inline-block lg:mt-0 font-dfg" href="/Servicios">Servicios</Link>
-            <Link className="block p-3 mt-4 text-white bg-blue md:ml-4 hover:text-slate-100 lg:inline-block lg:mt-0 rounded-3xl font-abc" href="https://web.whatsapp.com/">Contáctanos</Link>
+            <Link className="block px-8 pt-4 pb-2 mt-4 text-white bg-blue md:ml-4 hover:text-slate-100 lg:inline-block lg:mt-0 font-abc" href="https://web.whatsapp.com/">CONTACTANOS</Link>
 
         </nav>
        </div>
 
     </header>
-    </div>
   )
 }
